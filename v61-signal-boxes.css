@@ -1,0 +1,10 @@
+/* APPROVED / LOCKED — v61 signal-box treatment */
+#signalGrid.signal-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:28px 44px!important;margin-top:30px!important;border:0!important;background:transparent!important}
+#signalGrid .signal,#signalGrid .signal-card{position:relative!important;box-sizing:border-box!important;margin:0!important;padding:46px 44px 42px!important;min-height:390px!important;background:#fffdf9!important;border:1px solid #d8d0c3!important;border-top:6px solid #c97835!important;display:flex!important;flex-direction:column!important}
+#signalGrid .signal .eyebrow,#signalGrid .signal-card .eyebrow{margin:0 0 34px!important;color:var(--purple)!important;font-size:12px!important;letter-spacing:.12em!important;font-weight:850!important}
+#signalGrid .signal h3,#signalGrid .signal-card h3{margin:0 0 28px!important;font-size:25px!important;line-height:1.12!important}
+#signalGrid .signal .deck,#signalGrid .signal-card .deck,#signalGrid .signal>p,#signalGrid .signal-card>p{margin:0 0 28px!important;line-height:1.45!important}
+#signalGrid .signal .source,#signalGrid .signal-card .source{margin:0 0 30px!important}
+#signalGrid .signal .take-preview,#signalGrid .signal-card .take-preview,#signalGrid .signal>.textbtn,#signalGrid .signal-card>.textbtn{margin-top:auto!important;padding-top:0!important}
+#signalGrid .signal:after,#signalGrid .signal-card:after{display:none!important}
+@media(max-width:900px){#signalGrid.signal-grid{grid-template-columns:1fr!important;gap:22px!important}#signalGrid .signal,#signalGrid .signal-card{min-height:0!important;padding:30px!important}}
