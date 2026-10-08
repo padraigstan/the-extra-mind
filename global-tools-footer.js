@@ -5,7 +5,7 @@
     const shell=document.querySelector('.shell'), footer=shell&&shell.querySelector(':scope > footer.footer');
     if(!shell||!footer)return false;
     const existing=document.getElementById('globalToolsFooter');
-    if(!existing) footer.insertAdjacentHTML('beforebegin',footerHTML);
+    if(!existing) shell.insertAdjacentHTML('beforeend',footerHTML);
     /* Homepage already has the identical launcher block in its content: hide that duplicate only. */
     const home=document.getElementById('home');
     if(home){const old=home.querySelector('.tool-launchers-wrap');if(old)old.style.display='none';}
