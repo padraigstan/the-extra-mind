@@ -18,3 +18,7 @@
 #signalGrid .signal .source,#signalGrid .signal-card .source{margin-bottom:12px!important;font-size:11px!important}
 #signalGrid .signal .take-preview,#signalGrid .signal-card .take-preview{margin-top:auto!important;padding-top:5px!important}
 @media(max-width:900px){#signalGrid.signal-grid{gap:14px!important}#signalGrid .signal,#signalGrid .signal-card{padding:20px!important}}
+
+/* Approved card CTA alignment: keep 'Read The Extra Mind take' flush left. */
+#signalGrid .signal-card .take-preview,#signalGrid .signal .take-preview{display:flex!important;justify-content:flex-start!important;align-items:flex-start!important;text-align:left!important;width:100%!important}
+#signalGrid .signal-card .take-preview .textbtn,#signalGrid .signal .take-preview .textbtn{display:inline-block!important;width:auto!important;max-width:100%!important;margin-left:0!important;margin-right:auto!important;padding-left:0!important;text-align:left!important;align-self:flex-start!important}
