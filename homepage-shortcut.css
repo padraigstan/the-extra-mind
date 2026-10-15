@@ -1,7 +1,7 @@
-/* Quiet, compact home icon beside the logo; no button chrome. */
-.masthead .masthead-home-shortcut{display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:0 0 26px!important;width:26px!important;height:26px!important;min-width:26px!important;min-height:26px!important;padding:0!important;margin:0 8px 0 2px!important;border:0!important;border-radius:5px!important;background:transparent!important;color:#62536d!important;box-shadow:none!important;cursor:pointer!important;transition:color .15s ease,background .15s ease!important}
-.masthead .masthead-home-shortcut svg{width:15px!important;height:15px!important;display:block!important;flex-shrink:0!important}
-.masthead .masthead-home-shortcut span{display:none!important}
-.masthead .masthead-home-shortcut:hover{color:#5a2bd6!important;background:#f1ebfc!important}
-.masthead .masthead-home-shortcut:focus-visible{outline:2px solid #5a2bd6!important;outline-offset:2px!important}
-@media(max-width:560px){.masthead .masthead-home-shortcut{margin:0 5px 0 0!important}}
+/* Preserve the original masthead's three direct children: brand, nav, date. */
+.masthead .brand-home{position:relative}
+.masthead .brand-home-icon{display:inline-flex;align-items:center;justify-content:center;flex:none;width:23px;height:23px;margin-left:10px;color:#665776;border-radius:4px;transition:color .15s ease,background .15s ease}
+.masthead .brand-home-icon svg{width:14px;height:14px;display:block}
+.masthead .brand-home:hover .brand-home-icon{color:#5a2bd6;background:#eee7fa}
+.masthead .brand-home:focus-visible{outline:2px solid #5a2bd6;outline-offset:4px}
+@media(max-width:600px){.masthead .brand-home-icon{margin-left:5px;width:20px;height:20px}.masthead .brand-home-icon svg{width:13px;height:13px}}
