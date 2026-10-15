@@ -1,7 +1,7 @@
-/* A discreet, explicit route home beside the logo. */
-.masthead .masthead-home-shortcut{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto;min-height:36px;padding:7px 11px;border:1px solid #d8d0c3;border-radius:7px;background:#fffdf9;color:#5a2bd6;font:700 12px/1.2 inherit;letter-spacing:.01em;cursor:pointer;white-space:nowrap;transition:background .15s ease,border-color .15s ease,box-shadow .15s ease}
-.masthead .masthead-home-shortcut svg{width:17px;height:17px;display:block;flex-shrink:0}
-.masthead .masthead-home-shortcut:hover{background:#f1ebfc;border-color:#5a2bd6}
-.masthead .masthead-home-shortcut:focus-visible{outline:3px solid #5a2bd6;outline-offset:3px}
-@media(max-width:950px){.masthead .masthead-home-shortcut{padding:8px;min-width:36px}.masthead .masthead-home-shortcut span{display:none}}
-@media(max-width:560px){.masthead .masthead-home-shortcut{margin-left:4px}}
+/* Quiet, compact home icon beside the logo; no button chrome. */
+.masthead .masthead-home-shortcut{display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:0 0 26px!important;width:26px!important;height:26px!important;min-width:26px!important;min-height:26px!important;padding:0!important;margin:0 8px 0 2px!important;border:0!important;border-radius:5px!important;background:transparent!important;color:#62536d!important;box-shadow:none!important;cursor:pointer!important;transition:color .15s ease,background .15s ease!important}
+.masthead .masthead-home-shortcut svg{width:15px!important;height:15px!important;display:block!important;flex-shrink:0!important}
+.masthead .masthead-home-shortcut span{display:none!important}
+.masthead .masthead-home-shortcut:hover{color:#5a2bd6!important;background:#f1ebfc!important}
+.masthead .masthead-home-shortcut:focus-visible{outline:2px solid #5a2bd6!important;outline-offset:2px!important}
+@media(max-width:560px){.masthead .masthead-home-shortcut{margin:0 5px 0 0!important}}
