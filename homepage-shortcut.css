@@ -1,0 +1,7 @@
+/* A discreet, explicit route home beside the logo. */
+.masthead .masthead-home-shortcut{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto;min-height:36px;padding:7px 11px;border:1px solid #d8d0c3;border-radius:7px;background:#fffdf9;color:#5a2bd6;font:700 12px/1.2 inherit;letter-spacing:.01em;cursor:pointer;white-space:nowrap;transition:background .15s ease,border-color .15s ease,box-shadow .15s ease}
+.masthead .masthead-home-shortcut svg{width:17px;height:17px;display:block;flex-shrink:0}
+.masthead .masthead-home-shortcut:hover{background:#f1ebfc;border-color:#5a2bd6}
+.masthead .masthead-home-shortcut:focus-visible{outline:3px solid #5a2bd6;outline-offset:3px}
+@media(max-width:950px){.masthead .masthead-home-shortcut{padding:8px;min-width:36px}.masthead .masthead-home-shortcut span{display:none}}
+@media(max-width:560px){.masthead .masthead-home-shortcut{margin-left:4px}}
